@@ -1,7 +1,5 @@
 def calcular_determinante_sarrus(matriz):
-    """
-    Calcula o determinante de uma matriz 3x3 usando a Regra de Sarrus.
-    """
+
     if len(matriz) != 3 or any(len(linha) != 3 for linha in matriz):
         raise ValueError("A matriz deve ser 3x3")
     
